@@ -4,7 +4,7 @@
 # This code is public domain.  You can do whatever
 # you want with it.
 
-RUNDIR="$HOME/.wp-updater"	# Make sure this matches with wp-updater.sh
+. /etc/wp-updater.conf
 
 if [ -a /tmp/wp-updater.lock ]; then
 	echo "WP updater already running..." >> /dev/null	# he he
