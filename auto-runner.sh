@@ -9,6 +9,6 @@
 if [ -a /tmp/wp-updater.lock ]; then
 	echo "WP updater already running..." >> /dev/null	# he he
 else
-	. $RUNDIR/wp-updater.sh &
+	bash $RUNDIR/wp-updater.sh &
 	touch /tmp/wp-updater.lock
 fi

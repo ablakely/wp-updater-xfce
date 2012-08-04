@@ -4,8 +4,6 @@ Wallpaper Auto Updater by Aaron Blakely <aaron@ephasic.org>
 This script will auto update your XFCE backdrop with a random image
 from a defined directory at a defined interval.
 
---------------------------------------------------------------------
-
 This code is public domain.  You are free to modify or do whatever
 you want wit it.
 
@@ -13,3 +11,20 @@ you want wit it.
 
 Installing:
 	chmod +x install.sh && ./install.sh
+
+
+Troubleshooting:
+	If the auto-runner doesn't seem to work, it could be
+	that there is still an old lock file in /tmp.  Just
+	remove /tmp/wp-updater.lock and try it again.
+
+	The lock exists because if this script is ran from
+	your bashrc, everytime you login (virtual term, ssh, etc)
+	a new process would be spawned which is not good.
+
+Bugs:
+	I've only tested this on xubuntu.
+	If you experience any problems regaurding this script
+	on other distros, feel free to contact me.
+
+	Twitter: @Dark_Aaron
