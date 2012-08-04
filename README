@@ -12,13 +12,4 @@ you want wit it.
 -------------------------------------------------------------------
 
 Installing:
-	1) Edit the configuration vars in the top of wp-update.sh
-	2) Put the script in what you defined as RUNDIR
-	3) chmod +x it
-	4) Run it!
-
-Optional:
-	Add . ~/.wp-updater/auto-runner.sh to the end of your
-	~/.bashrc to start this script on login.
-
-	This is assuming you put the scripts into ~/.wp-updater
+	chmod +x install.sh && ./install.sh

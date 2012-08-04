@@ -4,10 +4,8 @@
 # This code is public domain.  You can do whatever
 # you want with it.
 
-RUNDIR="$HOME/.wp-updater/"		# Directory which this script is ran from
-MONITOR_COUNT=2				# The count of monitors.
-IMGDIR="$HOME/Pictures/wallpapers"	# Directory where the images are.
-INTTIME="15m"				# sleep(1) paramater
+# See /etc/wp-updater.conf for configuration
+. /etc/wp-updater.conf
 
 cd "$RUNDIR"
 while [ 1 ]; do
