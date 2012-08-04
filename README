@@ -18,6 +18,7 @@ Installing:
 	4) Run it!
 
 Optional:
-	Put the snippet of code found in auto-runner.sh into the
-	end of your $HOME/.bashrc file or auto starting on login
+	Add . ~/.wp-updater/auto-runner.sh to the end of your
+	~/.bashrc to start this script on login.
 
+	This is assuming you put the scripts into ~/.wp-updater
