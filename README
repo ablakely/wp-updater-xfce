@@ -1,0 +1,23 @@
+wp-updater-xfce
+Wallpaper Auto Updater by Aaron Blakely <aaron@ephasic.org>
+
+This script will auto update your XFCE backdrop with a random image
+from a defined directory at a defined interval.
+
+--------------------------------------------------------------------
+
+This code is public domain.  You are free to modify or do whatever
+you want wit it.
+
+-------------------------------------------------------------------
+
+Installing:
+	1) Edit the configuration vars in the top of wp-update.sh
+	2) Put the script in what you defined as RUNDIR
+	3) chmod +x it
+	4) Run it!
+
+Optional:
+	Put the snippet of code found in auto-runner.sh into the
+	end of your $HOME/.bashrc file or auto starting on login
+
